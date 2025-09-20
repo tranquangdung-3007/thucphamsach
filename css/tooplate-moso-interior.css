@@ -1104,11 +1104,19 @@ strong {
   .reviews-body {
     padding: 40px 30px;
   }
+
+  .card-title {
+    color: #fff !important;
+  }
 }
 
 @media screen and (max-width: 580px) {
   .site-footer {
     text-align: center;
+  }
+
+  .card-title {
+    color: #fff !important;
   }
 }
 
@@ -1151,5 +1159,9 @@ strong {
 
   .copyright-text-wrap {
     justify-content: center;
+  }
+
+  .card-title {
+    color: #fff !important;
   }
 }
